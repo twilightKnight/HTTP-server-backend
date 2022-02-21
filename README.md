@@ -53,7 +53,6 @@ http://127.0.0.1:8000/load_page/5000&2
 {"City №1": {'geonameid': '470422', 'name': 'Stantsiya Vympel', 'asciiname': 'Stantsiya Vympel', 'alternatenames': '', 'latitude': '51.31667', 'longitude': '47.95', 'feature_class': 'S', 'feature_code': 'RSTN', 'country_code': 'RU', 'cc2': '', 'admin1_code': '67', 'admin2_code': '', 'admin3_code': '', 'admin4_code': '', 'population': '0', 'elevation': '', 'dem': '106', 'timezone': 'Europe/Saratov', 'modification_date': '1994-04-09'}, "City №2": {'geonameid': '470423', 'name': 'Vymovo', 'asciiname': 'Vymovo', 'alternatenames': 'Vymovo,Вымово', 'latitude': '60.04141', 'longitude': '32.81836', 'feature_class': 'P', 'feature_code': 'PPL', 'country_code': 'RU', 'cc2': '', 'admin1_code': '42', 'admin2_code': '472711', 'admin3_code': '', 'admin4_code': '', 'population': '0', 'elevation': '', 'dem': '40', 'timezone': 'Europe/Moscow', 'modification_date': '2016-09-08'}, }
 ```
 
-Также для метода предусмотрены визуальные разделители, для случая, если ответ сервера будет анализироваться "на глаз", разделители будут устанавливаться после каждого отображенного города, для их отрисовки необходимо задать параметру LOAD_PAGE_VISUAL_DIVIDER в settings.py ненулевое значение.
 
 ### Метод /compare/{cities}
 
